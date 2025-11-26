@@ -5,7 +5,7 @@ from bot import calculate_factorial
 class TestFactorialBot(unittest.TestCase):
 
     def test_factorial_zero(self):
-        self.assertEqual(calculate_factorial(0), 1)
+        self.assertEqual(calculate_factorial(0), 999)  #Ошибка
     
     def test_factorial_positive_numbers(self):
         self.assertEqual(calculate_factorial(1), 1)
